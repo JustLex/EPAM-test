@@ -5,14 +5,15 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
+import test.epam.devices.model.Department;
 import test.epam.devices.model.Device;
 import test.epam.devices.service.xml.XMLBillWriter;
 import test.epam.devices.service.xml.XMLDevicesReader;
 
-public class Equip {
+public class EquipService {
 	private String path;
 	
-	public Equip(String path){
+	public EquipService(String path){
 		this.path = path;
 	}
 	

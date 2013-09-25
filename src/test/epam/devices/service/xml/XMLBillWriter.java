@@ -16,8 +16,8 @@ import org.w3c.dom.Attr;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
+import test.epam.devices.model.Department;
 import test.epam.devices.model.Device;
-import test.epam.devices.service.Department;
 
 public class XMLBillWriter {
 	private Department dept;

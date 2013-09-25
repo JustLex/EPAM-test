@@ -1,8 +1,7 @@
-package test.epam.devices.service;
+package test.epam.devices.model;
 
 import java.util.ArrayList;
 
-import test.epam.devices.model.Device;
 
 public class Department {
 	private int staff;
